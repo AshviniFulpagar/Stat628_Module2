@@ -1,17 +1,31 @@
 # Body Fat Calculator : Stat628_Module2
 
-
 ### Overview
 
-- This module aims to develop a code and a shiny application to predict the body fat percentage for MEN.
+- This module aims to develop a `R` code and a `Rshiny` application to predict the body fat percentage for MEN.
 
--  code contains all of the raw code written in `R language` 
+- This `shiny` app asks users to enter different measurements like `height`, `weight`, `abdomen` and `age`, calculates `body fat` percentage, and shows result and suggestions accordingly!
 
-- input contains data set, refernce example, data description, reference summary and example of a presentation 
+- [code](code) contains all of the raw code written in `R language` and [shiny](https://shiny.rstudio.com/) app code 
 
-- output contains final presentation, and two page summary
+- [output](output) contains two page summary for the module
 
-- Shiny contains [shiny](https://shiny.rstudio.com/) app code 
+- [images](images) comtains all of the plots and tables produced during analysis
+
+### How to run this code?
+
+- Before running this code you need to install R-Studio, R-CRAN and R packages like `car`, `MASS`, `carplot` and `ggplot2`
+
+- Shiny code can be run in `Rstudio` similar to `R` script
+
+- Install packages `shiny` and [shinythemes](https://cran.r-project.org/web/packages/shinythemes/index.html) before running the script 
+
+- Set `Stat628_Module2` as a working directory
+- To run the r code use script [module2.R](code/module2.R)
+- To run the shiny code use script 
+
+###
+Two page Summary can be found at [Summary](output/summary.pdf)
 
 
 
