@@ -10,7 +10,7 @@
 
 - [output](output) contains two page summary for the module
 
-- [images](images) comtains all of the plots and tables produced during analysis
+- [images](images) contains all of the plots and tables produced during analysis
 
 ### How to run this code?
 
@@ -21,11 +21,14 @@
 - Install packages `shiny` and [shinythemes](https://cran.r-project.org/web/packages/shinythemes/index.html) before running the script 
 
 - Set `Stat628_Module2` as a working directory
-- To run the r code use script [module2.R](code/module2.R)
-- To run the shiny code use script 
+- To run the r code use script [BodyFatCalculatorFinalCode](code/BodyFatCalculatorFinalCode)
+- To run the shiny code use script [bodyfatshiny_FINALapp.R](code/bodyfatshiny_FINALapp.R)
 
 ###
 Two page Summary can be found at [Summary](output/summary.pdf)
+
+###
+We have hosted our Shiny app at [BodyFatCalculator](https://luyang8991.shinyapps.io/BodyFat_Calculator_Group17/)
 
 
 
